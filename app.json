@@ -1,7 +1,7 @@
 {
   "name": "Mailchimp Single Opt In",
   "description": "A simple Hapi.js app for forwarding Mailchimp email signups as single-opt-in",
-  "repository": "git+https://github.com/sanctuarycomputer/mailchimp-single-opt-in.git",
+  "repository": "https://github.com/sanctuarycomputer/mailchimp-single-opt-in",
   "env": {
      "MAILCHIMP_API_KEY": {
       "description": "Your Mailchimp API Key, available here: https://admin.mailchimp.com/account/api/"
