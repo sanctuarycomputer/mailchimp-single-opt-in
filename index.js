@@ -28,7 +28,7 @@ server.route({
   method: 'POST',
   path: '/',
   handler: function (request, reply) {
-    if (!request.payload.email) return reply({ detail: "no_email" }).code(400);
+    if (!request.payload.email) return reply({ detail: "Please provide a valid email address." }).code(400);
     if (!request.payload.list_id) return reply({ detail: "no_list_id" }).code(400);
     mailchimp.post(`/lists/${request.payload.list_id}/members`, {
       email_address: request.payload.email,
