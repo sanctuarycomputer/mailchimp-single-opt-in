@@ -6,8 +6,8 @@ const server    = new Hapi.Server();
 server.connection({
   port: (process.env.PORT || 3000),
   host: '0.0.0.0',
-  cors: {
-    origin: ['*']
+  routes: {
+    cors: true
   }
 });
 const mailchimp = new Mailchimp(process.env.MAILCHIMP_API_KEY);
