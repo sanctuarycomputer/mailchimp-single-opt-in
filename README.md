@@ -1,5 +1,7 @@
 # Mailchimp Single Sign On
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 A simply heroku-ready Hapi.js app (& jQuery Plugin) for enabling Ajax Style Mailchimp Form Opt-ins.
 
 ### Heroku App
