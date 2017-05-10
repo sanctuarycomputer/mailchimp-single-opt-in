@@ -1,4 +1,4 @@
-# Mailchimp Single Sign On
+# Mailchimp Opt Sign On
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
